@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "552655554742",
+    "project_id": "yassiroffi-852ca",
+    "storage_bucket": "yassiroffi-852ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552655554742:android:37d29a159d70ecd85a7e17",
+        "android_client_info": {
+          "package_name": "com.example.yassirofficiel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552655554742-hujois0dg4a8b217dk26h77k73ekguib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHAMlt8kN-HD4k3Ryj5DmzLZPmmUhGHFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552655554742-hujois0dg4a8b217dk26h77k73ekguib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image7"
+    tools:context=".AjouterUti">
+
+    <EditText
+        android:id="@+id/nomut"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tx_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/nomut"
+        android:layout_alignLeft="@id/nomut"
+        android:layout_marginTop="22dp"
+        android:text="Nom Utilisateur"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/nomut"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tx_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nomut"
+        android:layout_alignStart="@id/Email"
+        android:layout_alignLeft="@id/Email"
+        android:layout_marginTop="22dp"
+        android:text="Email"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/CIN"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:id="@+id/tX_cin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Email"
+        android:layout_alignStart="@id/CIN"
+        android:layout_alignLeft="@id/CIN"
+        android:layout_marginTop="22dp"
+        android:text="CIN"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/CIN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tx_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CIN"
+        android:layout_alignStart="@id/nomut"
+        android:layout_alignLeft="@id/nomut"
+        android:layout_marginTop="22dp"
+        android:text="Password"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/btn_registre"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_rectangle_pink"
+
+        android:text="Sauvegarder"
+        android:textColor="#000000" />
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+</RelativeLayout>
